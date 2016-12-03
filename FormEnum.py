@@ -12,7 +12,7 @@ try:
         try:
             br.open(url)
         except:
-            print "\n [!]Could not open page, exiting."
+            print "\n[!]Could not open page, exiting."
             break
 
         for form in br.forms():
@@ -20,5 +20,5 @@ try:
             print form
 
 except KeyboardInterrupt:
-	break
 	print "\n [!]Critical, user aborted script."
+	break
